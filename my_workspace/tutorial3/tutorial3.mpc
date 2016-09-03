@@ -1,0 +1,9 @@
+project (my_data_callback) : oasis_pintool {
+  sharedname = my_data_callback
+  install = .
+  includes += $(PINPP_ROOT)
+
+  Source_Files {
+    my_data_callback.cpp
+  }
+}

@@ -1,0 +1,9 @@
+project (my_extra_argument) : oasis_pintool {
+  sharedname = my_extra_argument
+  install = .
+  includes += $(PINPP_ROOT)
+
+  Source_Files {
+    my_extra_argument.cpp
+  }
+}

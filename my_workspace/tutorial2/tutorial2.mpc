@@ -1,0 +1,9 @@
+project (my_callback) : oasis_pintool {
+  sharedname = my_callback
+  install = .
+  includes += $(PINPP_ROOT)
+
+  Source_Files {
+    my_callback.cpp
+  }
+}
